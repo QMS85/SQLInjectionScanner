@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>SQLi Scanner</title>
+  <style>
+    body { font-family: Arial; margin: 20px; }
+    input[type="text"] { width: 300px; }
+    button { margin-top: 10px; }
+  </style>
+</head>
+<body>
+  <h1>SQLi Scanner</h1>
+  <input type="text" id="url" placeholder="Enter URL">
+  <button onclick="scanSQLi()">Scan</button>
+  <div id="results"></div>
+
+  <script src="sqlscan.js"></script>
+</body>
+</html>
